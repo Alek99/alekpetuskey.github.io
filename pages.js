@@ -9,7 +9,7 @@ ghpages.publish(
     repo: repoURL,
   },
   (err) => {
-    if (err) console.log("ERROR: ", err);
+    if (err) console.log("ERROR:", err);
     else console.log("PUBLISHED");
   }
 );
